@@ -23,6 +23,6 @@
 
 3. 例如新建的course1.ts。在里面处理自己的逻辑，最后只需保证新建的ts文件返回analyze方法即可。这种模式叫组合设计模式。
 
-4. crowller.ts 和 course.ts 应用了了单例模式。
+4. crowller.ts 和 course.ts 应用了单例模式。
 
 
