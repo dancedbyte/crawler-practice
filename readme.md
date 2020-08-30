@@ -12,6 +12,8 @@
                             
 #### dev
     
+    启动：yarn dev
+    
     借助concurrently，集合以上两个命令。
 
 
