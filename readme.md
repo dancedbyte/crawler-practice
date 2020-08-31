@@ -27,4 +27,13 @@
 
 4. crowller.ts 和 course.ts 应用了单例模式。
 
+5. 编译时的命令区分
+
+       直接运行 tsc 会使用 tsconfig.json 的配置。
+    
+       运行 tsc crowller.ts 时，即指定了编译文件，则不会使用 tsconfig.json 的配置。
+   
+       运行 ts-node crowller.ts 时，会使用 tsconfig.json 的配置。                 
+
+
 
