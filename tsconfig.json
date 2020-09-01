@@ -1,5 +1,6 @@
 {
     //  "include": [],                        /* 设置include exclude files 可以指定ts编译的文件 */
+  "exclude": ["note"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
@@ -16,7 +17,7 @@
     // "sourceMap": true,                     /* Generates corresponding '.map' file. */
     // "outFile": "./",                       /* 将所有ts文件编译输出到指定的某一个js文件 */
     "outDir": "./build",                      /* 指定js输出路径 */
-    // "rootDir": "./",                       /* 指定编译路径，即编译哪些目录下的ts文件. */
+    "rootDir": "./src",                       /* 指定编译路径，即编译哪些目录下的ts文件. */
     // "composite": true,                     /* Enable project compilation */
     // "tsBuildInfoFile": "./",               /* Specify file to store incremental compilation information */
     // "removeComments": true,                /* 编译后的js是否需要移除注释 */

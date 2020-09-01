@@ -37,8 +37,4 @@ class Crowller {
     }
 }
 
-const secret = 'secretKey';
-const url = `http://www.dell-lee.com/typescript/demo.html?secret=${secret}`;
-
-const course = Course.getInstance();
-new Crowller(url, course);
+export default Crowller;
